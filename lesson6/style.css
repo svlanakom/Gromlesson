@@ -2,11 +2,11 @@ li {
     margin-bottom: 16px;
 }
 
-a[target="_blank"]{
+a[target="_blank"][href]{
     border: 2px solid black;
 }
 
-a[href*="broken"]{
+a[href^="broken"]{
     border: 2px solid red;
 }
 a[href$=".com" ]{
