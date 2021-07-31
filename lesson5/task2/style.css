@@ -1,0 +1,14 @@
+[data-description="anchors"] {
+    color: forestgreen;
+
+}
+[data-description] {
+    font-size: 24px;
+    
+}
+a[href][target]{
+    color: green;
+}
+input[type=text]{
+    background-color: orange;
+}
