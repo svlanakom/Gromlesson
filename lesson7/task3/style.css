@@ -1,10 +1,10 @@
-.theory::first-letter {
+.theory::first-letter{
     font-size: 36px;
     background-color: orange;
     margin-left: 16px;
 }
 .theory::first-line{
-    font-size: 36;
+    font-size: 24;
 }
 .theory::selection{
     background-color: red;
@@ -14,7 +14,7 @@ a::before{
     content: ">";
     color: green;
 }
-a::before{
+a::after{
     content: "<";
     color: green;
 }
