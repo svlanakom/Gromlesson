@@ -14,10 +14,10 @@ a:active,.some-button:active{
 a:hover{
  font-size: 24px;
 }
-.some-button:hover:disabled{
+.some-button:disabled{
     border: 2px dashed grey;
 }
-.some-button:enabled{
+.some-button:hover:enabled{
     background-color: white;
 }
 .some-button:hover{
