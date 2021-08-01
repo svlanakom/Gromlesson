@@ -3,8 +3,8 @@
     color: orange;
     margin-left: 16px;
 }
-.theory::first-line{
-    font-size: 24;
+p:first-of-type::first-line{
+    font-size: 24px;
 }
 .theory::selection{
     background-color: red;
