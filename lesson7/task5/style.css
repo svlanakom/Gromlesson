@@ -34,8 +34,9 @@ div>p{
     background-color: yellow;
 }
 
-div>div>div>p>p{
+div:nth-child(5n)>p:nth-child(3){
     border: 5px solid white;
+
 }
 
 p>em {
