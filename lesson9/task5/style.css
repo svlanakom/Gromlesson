@@ -1,16 +1,36 @@
-header {
+body {
+    padding: 0;
+    margin: 0;
+  }
+  header {
     position: fixed;
-    height: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: darkturquoise;
     height: 40px;
     z-index: 2;
-}
-nav{
-
+  }
+  li {
+    list-style: none;
+  }
+  nav {
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-item {
+    display: flex;
+    align-items: center;
+    height: 40px;
     margin-left: 16px;
-    color: white;
-}
-main {
+    color: #fff;
+  }
+  main {
     background-color: beige;
     height: 5000px;
     display: flex;
