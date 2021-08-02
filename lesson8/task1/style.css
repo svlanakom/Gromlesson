@@ -1,5 +1,12 @@
-.bodydocument {
+body{
     background-color: antiquewhite;
+}
+.div_size{
+    width: 512px ; 
+    height: 128px;
+    margin: 16px;
+    padding: 16px;
+    border:8px solid black ;
 }
 .content{
     box-sizing: content-box;
@@ -12,10 +19,4 @@
     background-color: azure;
     
 }
-.div_size{
-    width: 512px ; 
-    height: 128px;
-    margin: 16px;
-    padding: 16px;
-    border:8px solid black ;
-}
+
