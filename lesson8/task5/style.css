@@ -1,0 +1,17 @@
+div{
+    border: 2px solid black;
+    margin: 50px;
+}
+.pink{
+    height: 100px;
+    background-color: pink;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
