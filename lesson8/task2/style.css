@@ -1,12 +1,9 @@
 
-
-
 .rectangle {
     font-size: 24px;
     background-color: bisque;
     width: 420;
     height: 140px;
-    border-width: 10px 20px;
     border-top: 10px solid firebrick;
     border-right: 20px solid chartreuse;
     border-bottom: 10px dashed burlywood;
