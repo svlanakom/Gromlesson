@@ -7,8 +7,10 @@
     width: 420;
     height: 140px;
     border-width: 10px 20px;
-    border-color: firebrick chartreuse burlywood aqua;
-    border-style: solid solid dashed dashed;
+    border-top: 10px solid firebrick;
+    border-right: 20px solid chartreuse;
+    border-bottom: 10px dashed burlywood;
+    border-left: 20px dashed aqua;
     margin: 50px 100px;
     padding: 20px;
 
