@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    min-width: 50%;
+    block-size: fit-content;
+    position: relative;
+}
+.red{
+    background-color: red;
+    float: right;
+}
+.green{
+    background-color: green;
+    float: left;
+}
+.footer{
+    height: 2px solid black ;
+    height: 30px;
+
+    clear:both;
+}
