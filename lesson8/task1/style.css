@@ -8,6 +8,7 @@
     
 }
 .content2{
+    box-sizing: content-box;
     background-color: azure;
     
 }
