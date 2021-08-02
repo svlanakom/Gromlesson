@@ -1,14 +1,13 @@
-
-.rectangle {
+div{
     font-size: 24px;
     background-color: bisque;
-    width: 420;
+    margin: 50px 100px;
+    padding: 20px;
+    width: 420px;
     height: 140px;
     border-top: 10px solid firebrick;
     border-right: 20px solid chartreuse;
     border-bottom: 10px dashed burlywood;
     border-left: 20px dashed aqua;
-    margin: 50px 100px;
-    padding: 20px;
 
 }
