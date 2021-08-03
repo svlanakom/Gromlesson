@@ -45,6 +45,18 @@ footer{
     
 }
 .news {
+    display: flex;
+    flex-direction: column;
     width: 200px;
     background-color:grey;
+    
+    align-items: center;
+    
+   
+}
+.aside__item{
+    list-style-type: none;
+    margin-right: 10px;
+    justify-content: center;
+
 }
