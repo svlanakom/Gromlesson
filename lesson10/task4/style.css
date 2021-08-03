@@ -21,7 +21,5 @@ body{
 .block{
     width: 100px;
     flex-grow: 1;
-    flex-wrap: wrap;
-
-
+   
 }
