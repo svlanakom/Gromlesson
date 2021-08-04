@@ -1,21 +1,20 @@
-* {
-    box-sizing: border-box;
+* {
+    box-sizing: border-box;
   }
-  .name_articles {
-    text-align: center;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  header > h1 {
+    text-align: center;
   }
   
-  .article {
-    margin: 8px;
-    padding: 16px;
-    background-color: bisque;
-    min-width: 300px;
-    flex-basis: 300px;
-    flex: 1 0 300ox;
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .article {
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+  
+    flex: 1 0 300px;
   }
