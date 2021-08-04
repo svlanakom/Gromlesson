@@ -10,11 +10,10 @@
     
     cursor: pointer;
 }
-.menu-button{
-    padding: 16px;
+
 
     
-}
+
 
 .dropdown:hover {
     opacity: 1;
