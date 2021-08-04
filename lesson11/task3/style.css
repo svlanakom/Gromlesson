@@ -1,16 +1,24 @@
 .dropdown{
-    
+    position: relative;
     display: inline-block;
+    color: white;
     margin: 16px;
+    padding: 16px;
     background-color: darkgreen;
     opacity: 0.8;
-    font-size: 16px;
-    color: white;
+    
+    
     cursor: pointer;
+}
+.menu-button{
+    padding: 16px;
+
+    
 }
 
 .dropdown:hover {
     opacity: 1;
+    font-size: 16px;
 }
 .menu-item{
     
@@ -20,14 +28,17 @@
 .menu-list{
     display: none;
     margin: 0;
-    padding: 16;
-      
+    padding: 0;
+    position: absolute;  
     list-style-type: none;
     background: lightcyan;
     color: black;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     min-width: 120px;
     z-index: 1;
+}
+.menu-item:hover{
+    background-color: ghostwhite;
 }
 
 .dropdown:hover .menu-list {
