@@ -27,7 +27,7 @@
 }
 .menu-list{
     display: none;
-    margin: 0;
+    left: 0;
     padding: 0;
     position: absolute;  
     list-style-type: none;
