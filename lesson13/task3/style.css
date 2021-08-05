@@ -7,7 +7,7 @@ h1 {
     font-weight: 700;
     font-size: 96px;
   
-    
+    background: red;
     background: linear-gradient(
       45deg,
       yellow,
