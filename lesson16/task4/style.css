@@ -37,6 +37,7 @@ body{
     text-transform: uppercase;
     color: #ffffff;
     border-radius: 4px;
+    margin-top: 12px;
    
   }
   .form-control {
