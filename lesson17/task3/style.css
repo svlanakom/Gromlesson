@@ -15,6 +15,8 @@
   .black {
     background-color: black;
   }
-  
+  .num,.imp>td{
+    border: none !important
+}
 
   
