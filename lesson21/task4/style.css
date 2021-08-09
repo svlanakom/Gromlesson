@@ -65,9 +65,14 @@
   }
   
   .nav-list-link {
+    padding: 0 0.5em;
+    display: block;
     text-decoration: none;
-    color: white;
-    padding: 0 0.5em ;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
   }
   
   .section__header {
