@@ -1,100 +1,83 @@
 * {
     box-sizing: border-box;
-  }
-  
-    
-  body {
+}
+body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: "Verdana";
-   color: #555;
-   font-size: 16px;
-  
-   
-  }
- 
-    .header {
-    color: white;
-    display: flex;
-    background: linear-gradient(60deg, red, orange);
-    justify-content: center;
-    align-items: center;
-    
-
-  }
-  
-  .main {
-    flex: 1 0 auto;
+    font-size: 16px;
+    color: #555;
+    font-family: Verdana;
   }
 
-  
+  header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(60deg, red, orange);
+      color: #fff;
+  }
+  main {
+      flex: 1 0 auto;
+  }
+
   .navigation {
     padding: 0.5em;
     width: 20%;
   }
-  
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
   .section {
+    font-size: 1.25em;
     padding: 0.5em;
     width: 60%;
-    font-size: 1.25em;
   }
-  
-  .news {
-    padding: 0.5em;
-    width: 20%;
-  }
-  
-  .nav-list-item {
-    display: flex;
-    align-items: center;
-    color: white;
-    background-color: #808080;
-    margin-bottom: 0.5em;
-    height: 2em;
-    
-  }
-  
-  
   .units-list {
     line-height: 1.75em;
   }
-  
+  .css-units {
+    color: #8B0000;
+    background-color: #E5E5E5;
+    font-size: 1.125em;
+    font-weight: 700;
+  }
+  .section__header {
+    font-size: 5vw;
+    text-align: center;
+  }
   .nav-list {
     padding: 0;
     list-style: none;
   }
-  
-  .css-units {
-    color: #8b0000;
-    background-color: #e5e5e5;
-    font-weight: 700;
-    font-size: 1.125em;
-    
+  .nav-list-item {
+    display: flex;
+    align-items: center;
+    background-color: #808080;
+    color: #fff;
+    height: 2em;
+    margin-bottom: 0.5em;
   }
-  
   .nav-list-link {
-    text-decoration: none;
     padding: 0 0.5em;
     display: block;
-     color: #fff;
-   overflow: hidden;
-   white-space: nowrap;
-   text-overflow: ellipsis;
+    text-decoration: none;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
-  
-  .section__header {
-     text-align: center;
-    font-size: 5vw;
-    
+  .news {
+    padding: 0.5em;
+    width: 20%;
   }
-   
-      
-   
+
   footer {
     flex: 0 0 auto;
-    padding: 0.5em;
-    background-color: #e5e5e5;
     text-align: center;
+    background-color: #E5E5E5;
+    padding: 0.5em;
   }
-  
+
+ 
