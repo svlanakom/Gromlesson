@@ -41,8 +41,7 @@
   .nav-list-item {
     color: white;
     background-color: #808080;
-    padding: 0.5em;
-    margin-bottom: 0.5em;
+     margin-bottom: 0.5em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -68,6 +67,7 @@
   .nav-list-link {
     text-decoration: none;
     color: white;
+    padding: 0 0.5em ;
   }
   
   .section__header {
