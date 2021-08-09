@@ -11,6 +11,7 @@
     display: flex;
     width: 80%;
     background-color:#fa5;
+    align-items: center;
 
 }
 .ideas {
@@ -20,7 +21,7 @@
 
 }
 .image {
-    width: 100%;
+    max-width: 100%;
     margin: auto;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75) ;
     
@@ -31,14 +32,10 @@
     color: #fff;
     padding: 4px;
     margin: auto;
-    font-size: 24px;
-    overflow: hidden;
+     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     
-
-
-
 }
 
 
