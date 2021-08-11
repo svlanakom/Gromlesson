@@ -1,5 +1,5 @@
 @import 'variables.scss';
- *{
+ * {
      box-sizing: border-box;
  }
 
@@ -36,6 +36,12 @@ body {
 
   @include landscape {
     margin: 8px;
+  }
+}
+.container {
+  @include landscape {
+    display: flex;
+    flex-direction: row;
   }
 }
 
