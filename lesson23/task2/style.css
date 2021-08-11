@@ -1,17 +1,45 @@
-/* Error: expected "{".
- *   ,
- * 1 | gvhgvh
- *   |       ^
- *   '
- *   valera.scss 1:7  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 1 \2502  gvhgvh\a   \2502        ^\a   \2575 \a   valera.scss 1:7  root stylesheet';
+* {
+  box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: coral;
+  margin: 8px;
+}
+
+@media screen and (max-width: 599px) {
+  .square {
+    background-color: #ff7f50;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .square {
+    background-color: #8a2be2;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+  .square {
+    background-color: #a61;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .square .square {
+    background-color: #c47;
+  }
+}
+@media screen and (orientation: landscape) {
+  .square {
+    margin: 8px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
