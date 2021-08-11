@@ -44,4 +44,10 @@ body {
   }
 }
 
+@media screen and (min-width: 600px) {
+  .block {
+    flex-basis: 320px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
