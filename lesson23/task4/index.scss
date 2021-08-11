@@ -30,6 +30,13 @@ body{
   background-color: #0ff;
 }
 
-
+.container {
+  display: flex;
+  flex-direction: column;
+  @include for-medium {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 
 
