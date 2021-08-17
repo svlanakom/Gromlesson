@@ -13,10 +13,3 @@ function run() {
 }
 
 run();
-
-eslint - errors.txt:
-no-var
-eqeqeq
-no-undef
-no-plusplus
-no-return-assign
